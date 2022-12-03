@@ -4,11 +4,11 @@ print("Введите номер плоскости для уточнения в
 ploskost = int (input ())
 
 if ploskost == 1:
-    print ('x >=0 and y>=0')
+    print ('x >0 and y>0')
 if ploskost == 2:
-     print('x <=0 and y>=0')
+     print('x <0 and y>0')
 if ploskost == 3:
-     print('x <=0 and y<=0')
+     print('x <0 and y<0')
 if ploskost == 4:
-    print('x >=0 and y<=0')
+    print('x >0 and y<0')
 
