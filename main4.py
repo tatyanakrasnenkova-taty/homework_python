@@ -16,8 +16,8 @@ y2 = float(input())
 a = (x2 - x1)**2
 b = (y2 - y1)**2
 
+#функция нахождения корня
 import math
-
 d = math.sqrt(a+b)
 
 print (d)
