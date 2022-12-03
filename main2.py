@@ -7,9 +7,9 @@
 #- x=-34; y=-30 -> 3
 
 print("Введите координату x")
-x = int (input ())
+x = float (input ())
 print("Введите координату y")
-y = int (input ())
+y = float (input ())
 
 
 if (x > 0 and y > 0):
