@@ -16,4 +16,4 @@ for i in range(num):
     ist.append(pr)
     n += 1 
     
-print(ist)
+print(sum(ist))
