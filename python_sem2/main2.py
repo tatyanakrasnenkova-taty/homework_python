@@ -11,6 +11,9 @@ for i in range(-n, n+1):
 print(ist)
 print(ist[a] * ist[b])
 
+print(sum(ist))
+
+
 
 
 
