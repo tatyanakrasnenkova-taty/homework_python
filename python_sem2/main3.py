@@ -6,15 +6,24 @@
     #else:
         #i += i 
 
+
 num = list(input())
+res= 0
+
+for i in range(len(num)):
+    res+=int(num[i].replace('.', '0'))
+print(res)
+
+'''
+x = list(input())
 res = 0
 #ist = []
-# while (int(x) == x):
-    #if(True):
-        #x = x * 10
-    #else:
-        #break
-
+while (int(x) == x):
+    if(True):
+        x = x * 10
+    else:
+        break
+print(x)
 
 
 
@@ -32,3 +41,4 @@ print(res)
 #print(type(ist))
 #print(sum(ist))
 
+'''
